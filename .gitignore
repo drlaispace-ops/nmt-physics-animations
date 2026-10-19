@@ -1,0 +1,13 @@
+# Згенероване manim (відтворюється рендером)
+media/
+__pycache__/
+*.pyc
+
+# Фінали ProRes 4444 — 105–150 МБ кожен, понад ліміт GitHub; відтворюються ./render.sh final
+lecture-*/final/
+
+# Контрольні аркуші — відтворюються ./render.sh qa
+lecture-*/qa/
+
+.DS_Store
+.venv*/
